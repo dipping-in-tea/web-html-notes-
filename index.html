@@ -6,26 +6,56 @@
     <title>website that organize everything</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="">
+    <script src="script.js"></script>
 </head>
 
 <body class="dark-mode">
-    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-        <img src="img/RKpNOs.png" alt="Centered Image">
-    </div>
-    
-    <button onclick="location.href='Games/games.html'" style="width: calc(16.66% - 20px); margin-right: 10px;">Games</button>
-    <button onclick="location.href='Movies/Movies.html'" style="width: calc(16.66% - 20px); margin-right: 10px;">Movies</button>
-    <button onclick="location.href='Books/Books.html'" style="width: calc(16.66% - 20px); margin-right: 10px;">Books</button>
-    <button onclick="location.href='Images/Images.html'" style="width: calc(16.66% - 20px); margin-right: 10px;">Images</button>
-    <button onclick="location.href='Gallery.html'" style="width: calc(16.66% - 20px); margin-right: 10px;">Gallery</button>
-    <button onclick="location.href='Recipies/Recipies.html'" style="width: calc(16.66% - 20px);">Article</button>
+    <header>
+        <h1>Welcome to Website</h1>
+    </header>
 
-    <!-- Added a footer with a GIF image and a link back to Index.html -->
-    <footer style="position: fixed; bottom: 0; width: 100%; text-align: center;">
+    <nav>
+        <div class="button-container">
+            <button onclick="location.href='Games/games.html'" class="category-button">
+                <img src="img/button-games.jpg" alt="Games" width="50" height="50">
+                <span style="color: white;">Games</span>
+            </button>
+            <button onclick="location.href='Movies/Movies.html'" class="category-button">
+                <img src="img/button-movies.png" alt="Movies" width="50" height="50">
+                <span style="color: white;">Movies</span>
+            </button>
+            <button onclick="location.href='Books/Books.html'" class="category-button">
+                <img src="img/button-books.png" alt="Books" width="50" height="50">
+                <span style="color: white;">Books</span>
+            </button>
+            <button onclick="location.href='Images/Images.html'" class="category-button">
+                <img src="img/button-images.jpg" alt="Images" width="50" height="50">
+                <span style="color: white;">Images</span>
+            </button>
+            <button onclick="location.href='Gallery/Gallery.html'" class="category-button">
+                <img src="img/button-gallery.jpg" alt="Gallery" width="50" height="50">
+                <span style="color: white;">Gallery</span>
+            </button>
+            <button onclick="location.href='Article/Article.html'" class="category-button">
+                <img src="img/button-article.png" alt="Article" width="50" height="50">
+                <span style="color: white;">Article</span>
+            </button>
+            <button onclick="location.href='Recipies/Recipies.html'" class="category-button">
+                <img src="img/button-recipies.jpg" alt="Recipies" width="50" height="50">
+                <span style="color: white;">Recipies</span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <img src="img/RKpNOs.png" alt="Centered Image">
+        </div>
+    </main>
+
+    <footer>
         &copy; words and text here | <a href="index.html" style="margin-left: 10px;">Back to Home</a>
         <img src="gif/+sjRct.gif" alt="Footer Image">
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
