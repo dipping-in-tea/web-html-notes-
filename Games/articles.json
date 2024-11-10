@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "How to Make Delicious Chocolate Cake",
+        "img": "https://via.placeholder.com/200x150?text=Chocolate+Cake",
+        "tags": ["Cooking", "Desert"],
+        "content": "Here is a simple recipe for making delicious chocolate cake..."
+    },
+    {
+        "id": 2,
+        "title": "Top 10 Mobile Games to Play in Your Free Time",
+        "img": "https://via.placeholder.com/200x150?text=Mobile+Games",
+        "tags": ["Games"],
+        "content": "Here are some of the most popular mobile games you can play..."
+    },
+    {
+        "id": 3,
+        "title": "DIY DIY Lampshade Project",
+        "img": "https://via.placeholder.com/200x150?text=DIY+Lampshade",
+        "tags": ["DIY", "Home"],
+        "content": "Learn how to make your own lampshade with this easy DIY project..."
+    },
+    {
+        "id": 4,
+        "title": "Exploring the Best Board Games for Families",
+        "img": "https://via.placeholder.com/200x150?text=Board+Games",
+        "tags": ["Games", "Family"],
+        "content": "Check out these amazing board games that families will love..."
+    },
+    {
+        "id": 5,
+        "title": "Simple DIY Coffee Maker from Recycled Materials",
+        "img": "https://via.placeholder.com/200x150?text=Coffee+Maker",
+        "tags": ["DIY", "Home"],
+        "content": "Turn old plastic bottles into a functional coffee maker with this DIY project..."
+    },
+    {
+        "id": 6,
+        "title": "Best Healthy Recipes for Busy Weeknights",
+        "img": "https://via.placeholder.com/200x150?text=Healthy+Recipes",
+        "tags": ["Cooking", "Healthy"],
+        "content": "Here are some of the best healthy recipes for when you're short on time..."
+    },
+    {
+        "id": 7,
+        "title": "How to Start a DIY Home Decor Project",
+        "img": "https://via.placeholder.com/200x150?text=DIY+Decor",
+        "tags": ["DIY", "Home"],
+        "content": "Get inspired by these amazing DIY home decor projects..."
+    }
+]

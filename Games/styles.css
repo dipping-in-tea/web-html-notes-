@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e8b57; /* Dark forest green */
+}
+
+header {
+    background-color: #4d9963; /* Lighter forest green for header */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.articles-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center; /* Center the grid horizontally */
+}
+
+article {
+    border-bottom: 1px solid #556b2f; /* Darker forest green for separator */
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+button {
+    background-color: #90ee90; /* Light forest green for button */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #7cb342; /* Darker forest green for hover effect */
+}

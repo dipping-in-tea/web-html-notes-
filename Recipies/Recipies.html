@@ -3,37 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Gallery</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Article Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<body style="background-color: #07230b;">
-    <header id="header">
-        <h1><a href="#" style="color: #fff;">Game Gallery</a></h1>
-    </header>
-
-    <div class="game-list">
-        <div class="game game-dark">
-            <img src="img.png" alt="Hallow Night Cover Art">
-            <div class="overlay"></div>
-            <h2>Hallow Night</h2>
-            <p>Author: John Doe | Updated: Yesterday | Played: 12345 times</p>
-            <a href="#" onclick="window.location.href='something.html'">Learn more</a>
+<body>
+    <header>
+        <h1>Welcome to My Article Site</h1>
+        <div id="filter-bar">
+            <label for="tag-filter">Filter by Tag:</label>
+            <select id="tag-filter" onchange="filterArticles()">
+                <option value="">All Tags</option>
+            </select>
         </div>
-
-        <div class="game">
-            <img src="img.png" alt="Game of Drugs Cover Art">
-            <h2>Game of Drugs</h2>
-            <p>Author: Jane Doe | Updated: Last Week | Played: 67890 times</p>
-            <a href="#" onclick="window.location.href='game1.html'">Learn more</a>
-
-        <!-- Add more games here -->
-    </div>
-    <!-- Added a footer with a GIF image and a link back to Index.html -->
-    <footer style="position: fixed; bottom: 0; width: 100%; text-align: center;">
-        &copy; 2023 words and text here | <a href="../index.html" style="margin-left: 10px;">Back to Home</a>
-        <img src="img.png" alt="Footer Image">
-    </footer>
-
+    </header>
+    <main>
+        <div class="articles-grid" id="articles"></div>
+        <div id="article-content"></div>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
