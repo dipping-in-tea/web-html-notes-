@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Article Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Article Site</h1>
+        <div id="filter-bar">
+            <label for="tag-filter">Filter by Tag:</label>
+            <select id="tag-filter" onchange="filterArticles()">
+                <option value="">All Tags</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <div class="articles-grid" id="articles"></div>
+        <div id="article-content"></div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
